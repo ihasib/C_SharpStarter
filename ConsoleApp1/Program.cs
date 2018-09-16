@@ -19,14 +19,9 @@ namespace ConsoleApp1
             string S2 = Console.ReadLine();
             int number2 = Convert.ToInt32(S2);
 
-            int sum = Add(number1,number2);
+            int sum = Calculation.Add(number1,number2);
             Console.WriteLine(sum);
             Console.ReadKey();
-        }
-
-        public static int Add(int first, int second)
-        {
-            return first + second;
         }
     }
 }
